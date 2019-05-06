@@ -1,0 +1,26 @@
+{
+  "name": "pc-ec-web",
+  "version": "1.0.0",
+  "description": "传统的PC电商页面",
+  "scripts": {
+    "build": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangk57/TraditionalEC.git"
+  },
+  "author": "SangK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sangk57/TraditionalEC/issues"
+  },
+  "homepage": "https://github.com/sangk57/TraditionalEC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-spritesmith": "^6.4.0"
+  }
+}

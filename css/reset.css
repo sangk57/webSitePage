@@ -1,0 +1,43 @@
+body,input,form,fieldset,a,p,textarea,table,td,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+    font-family: "Microsoft YaHei","lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+img{
+    border: none;
+    display: block;
+}
+input,select,textarea{
+    outline: 0;
+    border: 0;
+    background: none;
+}
+input:-webkit-autofill {  /*去掉谷歌自动完成黄色背景*/
+    -webkit-box-shadow: 0 0 0px 1000px  #fff inset; 
+} 
+textarea{
+    resize: none;
+}
+
+.clearfloat{
+    zoom: 1;
+}
+
+.clearfloat:after{
+    height: 0;
+    content: "";
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}

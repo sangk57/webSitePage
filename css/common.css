@@ -1,0 +1,382 @@
+.public-top{
+    height: 39px;
+    background-color: #f5f5f5;
+    font-size: 12px;
+    color: #858c90;
+    border-bottom: 1px solid #ebebeb;
+}
+.public-top .top-welcome{
+    float: left;
+    width: 240px;
+    margin-top: 13px;
+}
+
+.public-top .welcome-blue{
+    color: #0072a6;
+}
+
+.public-top .welcome-blue a{
+    color: #0072a6;;
+    display: inline;
+}
+
+.public-top .top-menu{
+    float: right;
+}
+
+.public-top .top-menu .item{
+    float: left;
+    margin-top: 13px;
+    margin-right: 1em;
+    
+}
+
+.public-top .top-menu i{
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: -3px;
+    _vertical-align: -1px;
+}
+
+*+html .public-top .top-menu i{
+    vertical-align: 1px;
+}
+
+
+.public-top .top-menu a{
+    display: inline;
+    color: #858c90;
+}
+
+.public-top .top-menu a:hover{
+    color: #333;
+}
+
+
+
+
+
+
+
+
+.public-header{
+    height: 130px;
+}
+
+.public-header .public-logo{
+    float: left;
+    margin-top: 42px;
+}
+
+
+.public-header .public-logo a{
+    width: 128px;
+    height: 36px;
+}
+
+.public-header .public-subnav{
+    
+    float: left;
+    width: 480px;
+    height: 66px;
+    margin-top: 34px;
+    margin-left: 180px;
+    _display: inline;
+} 
+
+.public-header .header-menu{
+    width: 480px;
+    height: 30px;
+}
+
+.public-header .header-menu .item{
+    position: relative;
+    width: 78px;
+    height: 30px;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.public-header .header-menu .active{
+    background-color: #e63900; 
+}
+
+.public-header .header-menu .item a{
+    height: 30px;
+    color: #747b8a;
+}
+
+.public-header .header-menu .item a:hover{
+    background-color: #e63900; 
+    color: #fff;
+}
+
+.public-header .header-menu .header-menu-item-after{
+    position: absolute;
+    top: 9px;
+    right: -1px;
+    width: 0;
+    height: 12px;
+    border-right: 1px solid #d6d9e1; 
+    _overflow: hidden;
+}
+
+.public-header .header-menu .active a{
+    color: #fff;
+}
+
+.public-header .header-menu .item-long{
+    width: 134px;
+}
+
+.public-header .header-search .search-searchBar{
+    width: 372px;
+    height: 30px;
+    float: left;
+    border: 3px solid #e63900;
+}
+
+.public-header .search-searchBar .search-bar{
+    float: left;
+    width: 262px;
+    height: 30px;
+    margin-left: 12px;
+    border: 0 none;
+    font-size: 12px;
+    color: #acb2bf;
+    line-height: 30px\9;
+}
+
+.public-header .header-search .search-search{
+    display: inline-block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.public-header .header-search .search-select{
+    position: relative;
+    float: right;
+    width: 56px;
+    height: 30px;
+    padding-left: 10px;
+    border: 0;
+    font-size: 12px;
+    line-height: 30px;
+    color: #747b8a;
+    background-color: #f0efef;
+}
+
+
+.public-header .header-search .search-select-arrow{
+    position: absolute;
+    display: block;
+    top: 12px;
+    right: 10px;
+}
+
+
+
+
+.public-header .header-search .search-button{
+    width: 102px;
+    height: 36px;
+    border: none;
+    float: left;
+    background-color: #e63900;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+.public-header .public-tel{
+    float: right;
+    margin-top: 30px;
+    padding: 12px 10px 16px 14px;
+    width: 128px;
+    height: 40px;
+    border: 1px solid #eaeaeb;
+}
+
+.public-header .public-tel i{
+    *vertical-align: 3px;
+    display: inline-block;
+}
+
+.public-header .public-tel .words{
+    font-size: 15px;
+    color: #999ea1;
+}
+
+.public-header .public-tel .number{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ec704e;
+}
+
+
+
+
+
+
+
+
+
+.public-nav{
+    height: 40px;
+    background-color: #0072a6;
+}
+
+.public-nav .nav-menu .item{
+    position: relative;
+    float: left;
+    width: 104px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.public-nav .nav-menu .nav-menu-item-after{
+    position: absolute;
+    top: 12px;
+    right: -2px;
+    width: 0;
+    height: 18px;
+    border-left: 1px solid #00405d;
+    border-right: 1px solid #0193d5;
+    _overflow: hidden;
+}
+
+.public-nav .nav-menu .active{
+    width: 102px;
+    position: relative;
+    left: 2px;
+    background-color: #00405d;
+}
+
+.public-nav .nav-menu .item a{
+    color: #f4f5f6;
+}
+
+.public-nav .nav-menu .item a:hover{
+    background-color: #00405d;
+}
+
+
+
+
+
+
+.public-footer{
+    height: 195px;
+    border-top: 1px solid #bcc1cc;
+}
+
+.public-footer .footer-menu{
+    width: 480px;
+    margin: 30px auto 0 auto;
+}
+
+.public-footer .footer-menu .item{
+    position: relative;
+    float: left;
+    width: 96px;
+    height: 16px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.public-footer .footer-menu .footer-menu-item-after{
+    position: absolute;
+    top: 3px;
+    right: -2px;
+    width: 0;
+    height: 14px;
+    border-left: 2px solid #bcc1cc; 
+    _overflow: hidden;
+}
+
+
+
+
+.public-footer .footer-menu .item a{
+    display: inline;
+    color: #5b5b5b;
+}
+
+.public-footer .footer-menu .item a:hover{
+    color: #e03131;
+}
+
+.public-footer .footer-x{
+    width: 590px;
+    margin: 16px auto 0 auto;
+    overflow: hidden;
+    font-size: 12px;
+    color: #5b5b5b;
+}
+
+
+
+
+.public-footer .footer-friendlink{
+    width: 858px;
+    margin: 42px auto 0 auto;
+}
+
+.public-footer .footer-friendlink .item{
+    float: left;
+    width: 105px;
+    height: 46px;
+    margin-right: 6px;
+    border: 1px solid #e6e6e6;
+}
+
+.public-footer .footer-friendlink .item-long{
+    width: 129px;
+}
+
+
+.footer-friendlink .item img{
+    float: left;
+}
+
+.footer-friendlink .item .friendlink-title{
+    width: 52px;
+    height: 46px;
+    line-height: 46px;
+    float: left;
+    font-size: 12px;
+    color: #333;
+    *position: relative;
+}
+
+.footer-friendlink .item .friendlink-title .wrap{
+    line-height: 1.5em;
+    vertical-align: middle;
+    display: inline-block;
+    *position: absolute;  
+    *top: 50%;
+}
+
+.footer-friendlink .item .friendlink-title .content{
+    *position: relative;  
+    *top: -50%; 
+}
+
+.footer-friendlink .item-long .friendlink-title{
+    width: 84px;
+
+}
+
+
+.public-container{
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+}
